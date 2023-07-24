@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">CollegeApp</string>
+    <string name="logo">logopng</string>
+    <string name="button1">teacher</string>
+    <string name="button2">student</string>
+    <string name="login">Login</string>
+    <string name="loginbutton">LOGIN</string>
+    <string name="DOB">DOB</string>
+    <string name="Register_number">Register number</string>
+    <string name="upload_notice">Upload Notice</string>
+    <string name="attendance">attendance</string>
+    <string name="mark">mark</string>
+    <string name="notice">notice</string>
+    <string name="feedback">feedback</string>
+    <string name="select">Select Item</string>
+    <string name="date">date</string>
+    <string name="upload">upload</string>
+    <string name="Panimalar_engineering_college">Panimalar Engineering College</string>
+    <string name="an_Autonomous_Institution">An Autonomous Institution</string>
+    <string name="subject_6">Subject 6</string>
+    <string name="subject_2">Subject 2</string>
+    <string name="subject_3">Subject 3</string>
+    <string name="subject_4">Subject 4</string>
+    <string name="subject_5">Subject 5</string>
+    <string name="register_number">Register Number</string>
+    <string name="subject_1">Subject 1</string>
+    <string name="choose2">choose2</string>
+    <string name="choose5">choose5</string>
+    <string name="choose1">choose1</string>
+    <string name="choose4">choose4</string>
+    <string name="choose3">choose3</string>
+    <string name="choose6">choose6</string>
+
+    <string-array name="attendance_array">
+        <item>Present</item>
+        <item>Absent</item>
+    </string-array>
+
+    <string-array name="grade_array">
+        <item>O</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>RA</item>
+    </string-array>
+    <string name="col1">Subject code</string>
+    <string name="code1">Subject code1</string>
+    <string name="code2">Subject code2</string>
+    <string name="code3">Subject code3</string>
+    <string name="code4">Subject code4</string>
+    <string name="code5">Subject code5</string>
+    <string name="code6">Subject code6</string>
+
+    <string name="col2">Grade</string>
+    <string name="mark1">Grade1</string>
+    <string name="mark2">Grade2</string>
+    <string name="mark3">Grade3</string>
+    <string name="mark4">Grade4</string>
+    <string name="mark5">Grade5</string>
+    <string name="mark6">Grade6</string>
+    <string name="gpa">gpa</string>
+    <string name="GPA">GPA:</string>
+    <string name="gpaHint">GPA</string>
+    <string name="semHint">SEM</string>
+    <string name="casualRadio">Casual</string>
+    <string name="placementRadio">Placement</string>
+    <string name="importantRadio">Important</string>
+    <string name="noticeHint">notice</string>
+    <string name="titleHint">Title</string>
+</resources>

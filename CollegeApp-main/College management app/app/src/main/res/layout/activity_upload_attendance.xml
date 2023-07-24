@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".uploadAttendance">
+
+    <EditText
+        android:id="@+id/reg_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="@color/black"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:hint="@string/Register_number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/primary" />
+
+    <Spinner
+        android:id="@+id/attn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="264dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:contentDescription="@string/select" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="150dp"
+        android:layout_height="27pt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="191dp"
+        android:text="@string/upload"
+        app:cornerRadius="25dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/enterDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="2dp"
+        android:drawableStart="@drawable/ic_notice"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/primary"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+</RelativeLayout>

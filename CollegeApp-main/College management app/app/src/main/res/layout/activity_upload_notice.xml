@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/NoticeTitle"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:hint="@string/titleHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addNotice"
+        android:layout_width="366dp"
+        android:layout_height="99dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="@string/noticeHint"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="150dp"
+        android:layout_height="27pt"
+        android:layout_marginTop="240dp"
+        android:layout_weight="1"
+        android:text="submit"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/addNotice"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/addNotice"
+        app:layout_constraintTop_toBottomOf="@+id/addNotice" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="322dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/placement_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/casualRadio"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/casual_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placementRadio"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/imp_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/importantRadio"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

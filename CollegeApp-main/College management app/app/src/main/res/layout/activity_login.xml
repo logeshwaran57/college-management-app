@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="150dp"
+        android:layout_height="27pt"
+        android:layout_below="@+id/editTextDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/loginbutton"
+        android:textAlignment="center"
+        app:cornerRadius="25dp"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="@string/Register_number"
+        android:textColorHint="@color/primary"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="10sp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="@string/DOB"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textColorHint="@color/primary"
+        android:drawableStart="@drawable/ic_notice"
+        android:drawablePadding="10sp"
+        tools:ignore="Autofill" />
+
+    <ProgressBar
+        android:id="@+id/LoadingSpinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>
